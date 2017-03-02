@@ -1,0 +1,127 @@
+*{
+    margin:0;
+    padding:0;
+}
+
+li{
+   list-style: none;
+    text-align: justify;
+}
+
+.white-link a:link {
+    color: whitesmoke;
+    text-decoration: none;
+}
+
+.white-link a:visited {
+    color: whitesmoke;
+    text-decoration: none;
+}
+
+.white-link a:hover {
+    color: white;
+    text-decoration: none;
+}
+
+.white-link a:active {
+    color: white;
+    text-decoration: none;
+}
+
+.navbar{
+    margin:0;
+    border-radius: 0;
+}
+.carousel{
+    background-color: whitesmoke;
+}
+.carousel-inner img{
+    margin: auto;
+}
+
+/*forum style*/
+.header{
+    width:100%;
+    margin-top:0;
+    background-color: #000;
+    text-align: center;
+    height: 150px;
+}
+.header H1{
+    margin:0;
+}
+
+.footer{
+    background-color: #000;
+    color:whitesmoke;
+    font-size: 24px;
+    padding-top:10px;
+    padding-bottom: 10px;
+}
+.content{
+    min-height: 400px;
+}
+.content td,th{
+    font-size: 16px;
+    padding-top:20px;
+    padding-bottom:20px;
+    padding-left:5px;
+    padding-right:5px;
+}
+.content table{
+    margin-top:20px;
+    margin-left:auto;
+    margin-right:auto;
+}
+
+.tableSmall table,td,th{
+    margin-left:auto;
+    margin-right:auto;
+    font-size: 12px;
+    padding-top:5px;
+    padding-bottom:5px;
+    padding-left:5px;
+    padding-right:5px;
+}
+
+/* user credential*/
+.user_credidential {
+    font-size: 12px;
+}
+
+.user_logo{
+    float:left;
+    height:50px;
+    width:50px;
+    margin-top: 0;
+    margin-right: 5px;
+    background-color: white;
+    color: black;
+    font-size: 32px;
+    text-align: center;
+}
+
+.user_info,.aPanel{
+    float:left;
+    margin-right:5px;
+    color: whitesmoke;
+}
+
+._main,._container
+{
+    margin:10px;
+    padding: 10px;
+    color: #000;
+}
+
+._img {
+    height:290px;
+    width:200px;
+    background-color:#000;
+    margin-left:auto;
+    margin-right:auto;
+    margin-bottom:10px;
+    border-width:0;
+}
+
+
